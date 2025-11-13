@@ -2,7 +2,7 @@
 // @name            ChatGPT with Date
 // @name:en         ChatGPT with Date
 // @name:zh-CN      ChatGPT with Date
-// @namespace       https://github.com/jiang-taibai/chatgpt-with-date
+// @namespace       https://github.com/deadbranch-forks/tm-chatgpt-with-date-js
 // @version         2.1.0
 // @description     显示 ChatGPT 历史对话时间 与 实时对话时间的 Tampermonkey 插件。
 // @description:zh-cn   显示 ChatGPT 历史对话时间 与 实时对话时间的 Tampermonkey 插件。
@@ -13,6 +13,7 @@
 // @match           *://chatgpt.com/*
 // @match           *://jiang-taibai.github.io/chatgpt-with-date-config-page*
 // @icon            https://cdn.coderjiang.com/project/chatgpt-with-date/logo.svg
+// @downloadURL     https://github.com/deadbranch-forks/tm-chatgpt-with-date-js/releases/latest/download/tm-chatgpt-with-date-js.js
 // @grant           GM_xmlhttpRequest
 // @grant           GM_registerMenuCommand
 // @grant           GM_setValue
