@@ -11,7 +11,7 @@
 // @license         MIT
 // @match           *://chat.openai.com/*
 // @match           *://chatgpt.com/*
-// @match           https://deadbranch-forks.github.iotm-chatgpt-with-date-config/*
+// @match           https://deadbranch-forks.github.io/tm-chatgpt-with-date-config/*
 // @icon            https://cdn.coderjiang.com/project/chatgpt-with-date/logo.svg
 // @downloadURL     https://github.com/deadbranch-forks/tm-chatgpt-with-date-js/releases/latest/download/tm-chatgpt-with-date-js.js
 // @grant           GM_xmlhttpRequest
