@@ -7,6 +7,7 @@
 // @description     显示 ChatGPT 历史对话时间 与 实时对话时间的 Tampermonkey 插件。
 // @description:zh-cn   显示 ChatGPT 历史对话时间 与 实时对话时间的 Tampermonkey 插件。
 // @description:en  Tampermonkey plugin for displaying ChatGPT historical and real-time conversation time.
+// @author          The Deadbranches contributors
 // @author          CoderJiang
 // @license         MIT
 // @match           *://chat.openai.com/*
@@ -310,7 +311,7 @@ class Heap {
 (function () {
     'use strict';
 
-    const IsConfigPage = window.location.hostname === 'jiang-taibai.github.io'
+    const IsConfigPage = window.location.hostname === 'deadbranch-forks.github.io'
     const DEBUG = false
 
     class SystemConfig {
@@ -1734,7 +1735,7 @@ class Heap {
                     </n-tooltip>
                     <n-tooltip trigger="hover">
                         <template #trigger>
-                            <n-button class="button" @click="openUrl('https://jiang-taibai.github.io/chatgpt-with-date/', '_blank')" text>
+                            <n-button class="button" @click="openUrl('https://deadbranch-forks.github.io/tm-chatgpt-with-date-js/', '_blank')" text>
                                 <n-icon size="20">
                                     ${SystemConfig.ConfigPanel.Icon.Documentation}
                                 </n-icon>
@@ -2207,14 +2208,14 @@ class Heap {
                 })
             } else {
                 GM_registerMenuCommand("配置面板 Configuration Panel", () => {
-                    GM_openInTab("https://jiang-taibai.github.io/chatgpt-with-date-config-page/");
+                    GM_openInTab("https://deadbranch-forks.github.io/tm-chatgpt-with-date-config/");
                 })
             }
             GM_registerMenuCommand("文档 Documentation", () => {
-                GM_openInTab("https://jiang-taibai.github.io/chatgpt-with-date/");
+                GM_openInTab("https://deadbranch-forks.github.io/tm-chatgpt-with-date-js/");
             })
             GM_registerMenuCommand("GitHub", () => {
-                GM_openInTab("https://github.com/jiang-taibai/chatgpt-with-date/");
+                GM_openInTab("https://github.com/deadbranch-forks/tm-chatgpt-with-date-js");
             })
         }
 
