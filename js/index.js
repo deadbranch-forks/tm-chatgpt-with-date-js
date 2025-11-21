@@ -3,7 +3,7 @@
 // @name:en         ChatGPT with Date
 // @name:zh-CN      ChatGPT with Date
 // @namespace       https://github.com/deadbranch-forks/tm-chatgpt-with-date-js
-// @version         2025.11.21
+// @version         v2025.11.21
 // @description     显示 ChatGPT 历史对话时间 与 实时对话时间的 Tampermonkey 插件。
 // @description:zh-cn   显示 ChatGPT 历史对话时间 与 实时对话时间的 Tampermonkey 插件。
 // @description:en  Tampermonkey plugin for displaying ChatGPT historical and real-time conversation time.
